@@ -20,6 +20,14 @@
 		2770764A2A277DAD0023C2E0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277076492A277DAD0023C2E0 /* MenuViewController.swift */; };
 		2770764C2A278C670023C2E0 /* AddCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770764B2A278C670023C2E0 /* AddCard.swift */; };
 		2770764E2A2860130023C2E0 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770764D2A2860130023C2E0 /* TransactionViewController.swift */; };
+		277076502A2876A80023C2E0 /* CompletedTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2770764F2A2876A80023C2E0 /* CompletedTransactionsViewController.swift */; };
+		277076532A2877880023C2E0 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277076512A2877880023C2E0 /* SampleTableViewCell.swift */; };
+		277076542A2877880023C2E0 /* SampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277076522A2877880023C2E0 /* SampleTableViewCell.xib */; };
+		277076562A2892B60023C2E0 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277076552A2892B60023C2E0 /* ExchangeViewController.swift */; };
+		277076582A28C5540023C2E0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277076572A28C5540023C2E0 /* PaymentViewController.swift */; };
+		2770765A2A28D22E0023C2E0 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277076592A28D22E0023C2E0 /* QRCodeViewController.swift */; };
+		27CAAED72A399A6000CD0C5E /* MounikerTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CAAED62A399A6000CD0C5E /* MounikerTestViewController.swift */; };
+		A9C44587341220FC27EA57DC /* Pods_BankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F514B5BD3C71CB31C3309C1C /* Pods_BankApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +46,16 @@
 		277076492A277DAD0023C2E0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2770764B2A278C670023C2E0 /* AddCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCard.swift; sourceTree = "<group>"; };
 		2770764D2A2860130023C2E0 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		2770764F2A2876A80023C2E0 /* CompletedTransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTransactionsViewController.swift; sourceTree = "<group>"; };
+		277076512A2877880023C2E0 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
+		277076522A2877880023C2E0 /* SampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleTableViewCell.xib; sourceTree = "<group>"; };
+		277076552A2892B60023C2E0 /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		277076572A28C5540023C2E0 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		277076592A28D22E0023C2E0 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		27CAAED62A399A6000CD0C5E /* MounikerTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MounikerTestViewController.swift; sourceTree = "<group>"; };
+		852E61F8A20EDD8AEC37A013 /* Pods-BankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.debug.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8D22A7BE8FC5D1F37EFBFDE2 /* Pods-BankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.release.xcconfig"; path = "Target Support Files/Pods-BankApp/Pods-BankApp.release.xcconfig"; sourceTree = "<group>"; };
+		F514B5BD3C71CB31C3309C1C /* Pods_BankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C44587341220FC27EA57DC /* Pods_BankApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1108644E38AA1F889EB7E0C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F514B5BD3C71CB31C3309C1C /* Pods_BankApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		277076212A271ACF0023C2E0 = {
 			isa = PBXGroup;
 			children = (
 				2770762C2A271ACF0023C2E0 /* BankApp */,
 				2770762B2A271ACF0023C2E0 /* Products */,
+				F0E875665EE3CFAF6741C44B /* Pods */,
+				1108644E38AA1F889EB7E0C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,12 +109,28 @@
 				277076492A277DAD0023C2E0 /* MenuViewController.swift */,
 				2770764B2A278C670023C2E0 /* AddCard.swift */,
 				2770764D2A2860130023C2E0 /* TransactionViewController.swift */,
+				277076552A2892B60023C2E0 /* ExchangeViewController.swift */,
+				2770764F2A2876A80023C2E0 /* CompletedTransactionsViewController.swift */,
+				277076512A2877880023C2E0 /* SampleTableViewCell.swift */,
+				277076572A28C5540023C2E0 /* PaymentViewController.swift */,
+				277076592A28D22E0023C2E0 /* QRCodeViewController.swift */,
+				27CAAED62A399A6000CD0C5E /* MounikerTestViewController.swift */,
+				277076522A2877880023C2E0 /* SampleTableViewCell.xib */,
 				277076332A271ACF0023C2E0 /* Main.storyboard */,
 				277076362A271AD10023C2E0 /* Assets.xcassets */,
 				277076382A271AD10023C2E0 /* LaunchScreen.storyboard */,
 				2770763B2A271AD10023C2E0 /* Info.plist */,
 			);
 			path = BankApp;
+			sourceTree = "<group>";
+		};
+		F0E875665EE3CFAF6741C44B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				852E61F8A20EDD8AEC37A013 /* Pods-BankApp.debug.xcconfig */,
+				8D22A7BE8FC5D1F37EFBFDE2 /* Pods-BankApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2770763E2A271AD10023C2E0 /* Build configuration list for PBXNativeTarget "BankApp" */;
 			buildPhases = (
+				3328559C3F420B13C4CD654F /* [CP] Check Pods Manifest.lock */,
 				277076262A271ACF0023C2E0 /* Sources */,
 				277076272A271ACF0023C2E0 /* Frameworks */,
 				277076282A271ACF0023C2E0 /* Resources */,
+				4DB8AC8D1CC7DEFB74C57407 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2770763A2A271AD10023C2E0 /* LaunchScreen.storyboard in Resources */,
+				277076542A2877880023C2E0 /* SampleTableViewCell.xib in Resources */,
 				277076372A271AD10023C2E0 /* Assets.xcassets in Resources */,
 				277076352A271ACF0023C2E0 /* Main.storyboard in Resources */,
 			);
@@ -154,16 +202,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3328559C3F420B13C4CD654F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB8AC8D1CC7DEFB74C57407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankApp/Pods-BankApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankApp/Pods-BankApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BankApp/Pods-BankApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		277076262A271ACF0023C2E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				277076422A271FF80023C2E0 /* ConnectToBankViewController.swift in Sources */,
+				277076532A2877880023C2E0 /* SampleTableViewCell.swift in Sources */,
 				2770764C2A278C670023C2E0 /* AddCard.swift in Sources */,
+				277076502A2876A80023C2E0 /* CompletedTransactionsViewController.swift in Sources */,
 				277076442A27304C0023C2E0 /* ForgotPasswordViewController.swift in Sources */,
 				277076482A2768DE0023C2E0 /* AccountViewController.swift in Sources */,
 				277076322A271ACF0023C2E0 /* ViewController.swift in Sources */,
+				277076582A28C5540023C2E0 /* PaymentViewController.swift in Sources */,
+				27CAAED72A399A6000CD0C5E /* MounikerTestViewController.swift in Sources */,
+				277076562A2892B60023C2E0 /* ExchangeViewController.swift in Sources */,
+				2770765A2A28D22E0023C2E0 /* QRCodeViewController.swift in Sources */,
 				2770764E2A2860130023C2E0 /* TransactionViewController.swift in Sources */,
 				2770762E2A271ACF0023C2E0 /* AppDelegate.swift in Sources */,
 				277076462A2746680023C2E0 /* SuccessfulSignInViewController.swift in Sources */,
@@ -310,11 +406,16 @@
 		};
 		2770763F2A271AD10023C2E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852E61F8A20EDD8AEC37A013 /* Pods-BankApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5CNN55283J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BankApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,8 +428,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Msil.BankApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msf.BankApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "MSF Wildcard In House Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,11 +440,16 @@
 		};
 		277076402A271AD10023C2E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D22A7BE8FC5D1F37EFBFDE2 /* Pods-BankApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5CNN55283J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BankApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -354,8 +462,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Msil.BankApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msf.BankApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "MSF Wildcard In House Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

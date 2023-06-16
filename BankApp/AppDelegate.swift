@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  BankApp
-//
-//  Created by Siva Mouniker  on 31/05/23.
-//
 
 import UIKit
 
